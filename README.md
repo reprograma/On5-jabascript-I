@@ -1,11 +1,16 @@
+<img src="assets/js_image.png">
+
 ## Sobre o Javascript
 
-[O Reino encantado do JavaScript – Hipsters #38](https://hipsters.tech/o-reino-encantado-do-javascript-hipsters-38/)
+JavaScript é a linguagem que usamos para interagir com o conteúdo de uma página em um navegador ou em outra plataforma. O que isso significa é que você tem o poder de manipular tudo o que vê na página. Como todos sabemos, com grande poder vem uma grande compreensão das árvores DOM e saber como usar os seletores para obter os elementos DOM e lidar com eventos.
 
-[Evolução e Especificação do JavaScript Moderno – Hipsters #58](https://hipsters.tech/evolucao-e-especificacao-do-javascript-moderno/)
 
-## Como chamar o Js
+[Mais sobre Javascript na documentação do Mozilla](https://developer.mozilla.org/pt-BR/docs/Aprender/JavaScript)
 
+
+## Como aplicar JS
+
+Devemos começar criando um novo arquivo dentro de uma pasta. É considerado uma boa prática e facilita na organização.
 ```javascript
 <script src="./js/script.js"></script>
 ```
@@ -16,11 +21,13 @@
 
 O Document Object Model ou simplesmente DOM é utilizado pelo navegador Web para representar a sua página Web. Quando altera-se esse modelo com o uso do Javascript altera-se também a página Web.
 
-Um dos grandes responsáveis por isso tudo é o objeto “document que é responsável por conceder ao código Javascript todo o acesso a árvore DOM do navegador Web. 
+Um dos grandes responsáveis por isso tudo é o objeto "document" que é responsável por conceder ao código Javascript todo o acesso a árvore DOM do navegador Web. 
 
 Com o DOM pode-se mover itens dentro de uma página ou criar efeitos CSS bastante interessantes sem precisar nem mesmo recarregar a página.
 
-<img src="assets/dom.png">
+<img src="assets/DOM-Manipulation.jpg">
+
+## O que podemos fazer utilizando o DOM
 
 - mudar todos os elementos HTML da página
 - alterar todos os atributos HTML na página
@@ -193,33 +200,27 @@ elemento.focus()
 ```
 ----
 
-<img src="assets/var.png">
+<img src="assets/JS.jpg">
 
 ----
 **Exercícios parte 1**
 
 Acessando os nodulos/elementos e visualizando no console. Adicionando eventos de clique e acessando elementos a partir do evento Retornando uma resposta pro usário atraves de criaçao de elementos novos e recursos de alerta.
 
-- botão clica e escreve no console
-- botões clica e coloca cor no fundo
+- Ex 00 - Escrevendo no Console e Alert
+- Ex 1 - Utilizando Submit
+- Ex 2 - Alterando cores com JS
+- Ex 3 - Criando elementos com JS
+- Ex 4 - Efeito toggle
 
-- input recebe email e agradece o recebimento
-- input recebe telefone e agradece o recebimento
-- input recebe nome e diz olá, nome
-
-- Exercício tabela de gastos
 ----
 
 **Exercícios parte 2**
 
 Destacando um erro de formulário no focus e em eventos do teclado. Manipulando o estilo para fazer animações. Métodos de manipulação de atributo - classe Métodos de manipulação de atributo - imagem
 
-- valida nome
-- valida email
-- valida telefone
-
-- efeito menu
-- efeito modal
+- Ex 5 - Validação com dados de input
+- Ex 6 - Formulário
 
 ----
 
