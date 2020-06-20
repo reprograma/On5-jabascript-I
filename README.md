@@ -207,11 +207,11 @@ elemento.focus()
 
 Acessando os nodulos/elementos e visualizando no console. Adicionando eventos de clique e acessando elementos a partir do evento Retornando uma resposta pro usário atraves de criaçao de elementos novos e recursos de alerta.
 
-- Ex 00 - Escrevendo no Console e Alert
-- Ex 1 - Utilizando Submit
-- Ex 2 - Alterando cores com JS
-- Ex 3 - Criando elementos com JS
-- Ex 4 - Efeito toggle
+- Ex 1 - Escrevendo no Console e Alert
+- Ex 2 - Utilizando Submit
+- Ex 3 - Alterando cores com JS
+- Ex 4 - Criando elementos com JS
+
 
 ----
 
@@ -219,14 +219,16 @@ Acessando os nodulos/elementos e visualizando no console. Adicionando eventos de
 
 Destacando um erro de formulário no focus e em eventos do teclado. Manipulando o estilo para fazer animações. Métodos de manipulação de atributo - classe Métodos de manipulação de atributo - imagem
 
-- Ex 5 - Validação com dados de input
-- Ex 6 - Formulário
+- Ex 5 - Efeito toggle
+- Ex 6 - Validação com dados de input
+- Ex 7 - Formulário
+- Ex 8 - 
 
 ----
 
-**Exercícios para casa**
+**Exercício para casa**
 
-Exercício form de endereco
+To Do List Básico
 
 ----
 
