@@ -39,7 +39,7 @@ Com o DOM pode-se mover itens dentro de uma página ou criar efeitos CSS bastant
 
 | Propriedade |	Descrição|
 :--------- | :-------- |
-documentElement | Captura o elemento raiz <html> de um documento HTML.
+document | Captura o elemento raiz <html> de um documento HTML.
 getElementById | Busca um elemento da página Web com o uso do atributo id do elemento.
 querySelector | Busca um elemento da página Web com o uso do atributo id, classe ou tag do elemento.
 createElement | Cria um nodo elemento na página.
@@ -61,6 +61,8 @@ document.querySelector(".classe")
 document.querySelector("#id")
 
 document.querySelector("div")
+
+document.querySelectorAll(".listaOrdenada li")
 
 ```
 
