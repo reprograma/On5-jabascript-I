@@ -224,13 +224,12 @@ Destacando um erro de formulário no focus e em eventos do teclado. Manipulando 
 - Ex 5 - Efeito toggle
 - Ex 6 - Validação com dados de input
 - Ex 7 - Formulário
-- Ex 8 - 
 
 ----
 
 **Exercício para casa**
 
-
+- Programa de Calcular e Exibir Média.
 
 ----
 
