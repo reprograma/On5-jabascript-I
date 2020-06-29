@@ -5,3 +5,20 @@
 body {
   background-color: rgb(235, 217, 217);
 }
+
+#box {
+  width: 200px;
+  height: 200px;
+  background-color: azure;
+}
+
+#btn {
+  background-color: blueviolet;
+  padding: 20px;
+}
+
+#btn p {
+  background-color: chartreuse;
+}
+
+
