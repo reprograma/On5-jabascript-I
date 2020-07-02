@@ -10,10 +10,23 @@
 </head>
 
 <body>
-    <p>Click no botão para criar um elemento de tag P</p>
-    <button type="button" id="button" onmouseover ="criarParagrafo()">Adicionar</button>
+    <h1>Click no botão para criar um elemento de tag P</h1>
+    <div class="mensagem"></div>
+    <button type="button" id="button">Adicionar</button>
 
-    <script src="js/index.js"></script>
+    <script>
+        let btn = document.getElementById("button")
+        let mensagem = document.querySelector(".mensagem")
+
+        btn.addEventListener("click", function() {
+            let criarParagrafo = document.createElement("p")
+            criarParagrafo.innerHTML = "Parágrafo com <b>JS</b>"
+
+            // Adicionar ao HTML - Paragrafo vira da Div Mensagem
+            mensagem.appendChild(criarParagrafo)
+        })
+
+    </script>
 </body>
 
 </html>

@@ -13,15 +13,17 @@ function validaDados() {
   if (valorEmail == '' ) {
     mensagem.textContent = "Por favor, preencha seu e-mail"
     inputEmail.focus()
-    // inputEmail.style.border = "5px solid red"
+    inputEmail.style.border = "5px solid red"
   } else if (valorSenha == '' ) {
     mensagem.textContent = "Por favor, preencha sua senha!"
     inputSenha.focus()
-    // inputSenha.style.border = "5px solid red"
+    inputSenha.style.border = "5px solid red"
   } else {
     mensagem.textContent = "Parabéns, verificadas com sucesso!"
     inputSenha.value = ""
     inputEmail.value = ""
+    inputSenha.style.border = "none"
+    inputEmail.style.border = "none"
   }
 } 
 

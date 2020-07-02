@@ -10,14 +10,27 @@
 </head>
 
 <body>
-    <div id="minhaId">
+    <div id="minhaId" class="hide">
         <h1>Efeito Toggle com JS</h1>
         <h2>Como esconder e mostrar um conteúdo utilizando classes de CSS</h2>
     </div>
-      <button class="esconder">Esconder</button>
-      <button class="mostrar">Mostrar</button>
+      <button class="mostrar">Abrir</button>
 
-      <script src="./js/script.js"></script>
+      <script>
+          let btnMostrar = document.querySelector(".mostrar")
+          let modal = document.getElementById("minhaId")
+
+          btnMostrar.addEventListener("click", function() {
+              if (modal.classList.contains("hide")) {
+                  modal.classList.remove("hide")
+                  btnMostrar.textContent = "Fechar"
+              } else {
+                  modal.classList.add("hide")
+                  btnMostrar.textContent = "Abrir"
+              }
+          })
+
+      </script>
 </body>
 
 </html>

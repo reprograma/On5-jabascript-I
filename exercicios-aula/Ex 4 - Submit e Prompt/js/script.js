@@ -6,6 +6,7 @@ form.addEventListener("submit", function() {
   event.preventDefault()
   let name = inputValor.value
   alert(name)
+  inputValor.value = ""
 })
 
 
