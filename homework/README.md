@@ -4,6 +4,7 @@ Esse é um exercício casa, para você treinar algumas coisas que aprendemos na 
 
 - Capturar os valores dos inputs e salvar em variáveis;
 - Capturar o botão;
+- Transformar os valores do input em número (parseInt ou parseFloat)
 - Efetuar a média;
 - Exibir no campo Sua média é:
 - Utilizar condicionais para mostrar mensagens de Aprovado ou Reprovado de acordo com a média final.
