@@ -66,5 +66,13 @@
 
   .media-titulo {
     margin-top: 15px;
+    text-align: center;
   }
-  
+  .media{
+    font-size: 20px;
+  }
+  #res{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+  }
