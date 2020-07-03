@@ -16,6 +16,36 @@
     <p>Digite alguma coisa:</p>
     <input type="text">
   </div>
-  <script src="./js/index.js"></script>
+
+  <!--javascript interno-->
+  <script>
+    //capturei o botão e armazenei na variável
+    let btnClicar = document.getElementById("btn")// usado para chamar elementos que tenham id no html
+
+
+    // capturar input e armazenar
+    let inputValor = document.querySelector("input") // .classe ou #idName Como está pegando só uma colocou input
+
+    //nomeVar = addEventListener("ação esperada", function(par){
+      //ação esperada
+    //})
+
+    /*
+
+    btnClicar.addEventListener("click", function(e){
+      //mostra o tipo do evento
+      console.log(e.type)
+      //mostra um alerta com o valor do input
+      alert(input.value)
+    })*/
+
+    btnClicar.addEventListener("click", function(){
+      console.log(inputValor.value)
+      alert(inputValor.value)
+    })
+  </script>
+
+
+  <!-- <script src="./js/index.js"></script> -->
 </body>
 </html>
