@@ -22,8 +22,6 @@ function calcularMedia() {
 
         apresentarResultado(mediaFinal)
         btnClicar.disabled = true
-    } else {
-        alert('Por favor, preencha todas as notas.')
     }
 }
 
@@ -40,7 +38,7 @@ function apresentarResultado(mediaFinal) {
         paragrafo.style.color = "red"
         paragrafo.textContent = "Que pena, você foi reprovado(a)";
     }
-    console.log(mediaFinal)
+    //console.log(mediaFinal)
     document.getElementById("media-final").textContent = mediaFinal;
     document.getElementById("mensagem").appendChild(paragrafo)
 
@@ -63,7 +61,11 @@ function validarInput(nota1, nota2, nota3) {
 
     if (isNaN(nota1) || isNaN(nota2) || isNaN(nota3)) {
         valido = false
+        alert('Por favor, preencha corretamente todas as notas.')
+    }
+    if ((nota1 < 0 || nota1 > 10) || (nota2 < 0 || nota2 > 10) || (nota3 < 0 || nota3 > 10)) {
+        alert('Nota inválida')
+        valido = false
     }
     return valido
-
 }
