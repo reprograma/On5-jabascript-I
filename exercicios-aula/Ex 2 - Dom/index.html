@@ -15,8 +15,23 @@
             <h1>Adicionando Estilos com JS</h1>
             <div>
                 <p id='item'>A PARAGRAPH</p>
-                <p class="hero">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius debitis itaque incidunt sint, doloribus ducimus quae tempore quod maxime minima eveniet unde amet recusandae reiciendis libero quis excepturi laboriosam sunt!</p>
+                <p class="hero">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vero, autem fugiat et recusandae voluptatem illo repudiandae porro. Porro illo ab dicta eius molestiae vel? Tempore consequatur autem reiciendis rem quod!</p>
+                <button id="botao" onclick="mudarCor()">Clique aqui</button>
             </div>
-            <script src="./js/script.js"></script>
+
+            <div class="container"></div>
+            <script>
+                // let btn = document.getElementById("botao")
+                // console.log(btn)
+                // let btn = document.querySelector("#botao")
+                let titulo = document.querySelector("h1")
+
+               function mudarCor(){
+                   titulo.style.backgroundColor = "yellow"
+               }
+
+            //    btn.addEventListener("click", mudarCor)
+
+            </script>
         </body>
     </html>

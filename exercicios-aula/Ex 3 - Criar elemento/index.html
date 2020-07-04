@@ -5,15 +5,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Adicionando Elementos com JS</title>
 </head>
 
 <body>
-    <p>Click no botão para criar um elemento de tag P</p>
+    <h1>Click no botão para criar um elemento de tag P</h1>
+    <div class="mensagem"></div>
     <button type="button" id="button">Adicionar</button>
 
-    <script src="index.js"></script>
+    <script>
+        let btn = document.getElementById("button")
+        let mensagem = document.querySelector(".mensagem")
+
+        btn.addEventListener("click", function() {
+            let criarParagrafo = document.createElement("p")
+            criarParagrafo.innerHTML = "Parágrafo com <b>JS</b>"
+
+            // Adicionar ao HTML - Paragrafo vira da Div Mensagem
+            mensagem.appendChild(criarParagrafo)
+        })
+
+    </script>
 </body>
 
 </html>
