@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Quicksand', sans-serif;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-image: url(/img/background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: auto 150vh;
+    min-height: 100vh;
+  }
+  .top {
+    background-color: teal;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 10px;
+  }
+
+  .header {
+    color: rgb(5, 114, 114);
+    font-size: 1.2rem;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .container {
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+    color: teal;
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  input {
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid rgb(174, 201, 201);
+    background-color: rgb(243, 245, 245);
+    padding: 10px;
+    outline: none;
+    font-size: 13px;
+    font-family: 'Work Sans', sans-serif;
+    margin-bottom: 20px;
+  }
+  
+  .container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+  }
+  
+  h3 {
+    margin: 10px 0;
+  }
+  
+  .button {
+    background-color: rgb(138, 189, 189);
+    border: none;
+    padding: 15px;
+    color: white;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+
+  .button2,
+  .button3 {
+    background-color:  rgb(159, 197, 197);
+    border: none;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 20px; 
+  }
+
+  .button3 {
+    background-color: rgb(172, 174, 175);
+  }
+
+  .media-titulo {
+    font-weight: 600;
+    margin-top: 15px;
+    padding-top: 20px;
+    text-transform: uppercase;
+  }
+
+  .media {
+    color: slategrey;
+  }
+  
