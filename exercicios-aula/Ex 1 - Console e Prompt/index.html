@@ -16,6 +16,17 @@
     <p>Digite alguma coisa:</p>
     <input type="text">
   </div>
-  <script src="./js/index.js"></script>
+ <script>
+   /*Capturei o botão e armazeneni na variável*/
+      let btnClicar = document.getElementById("btn");
+      // capturar input e armazenar
+      let input = document.querySelector("input");
+      btnClicar.addEventListener("click", function(){
+        alert(input.value)
+      })
+      // Função mostrar um alert com o valor digitado
+      // Estrutura: nomeVar = addEventListener("ação espereada", função(parâmetro))
+
+ </script>
 </body>
 </html>
