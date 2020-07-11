@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8" />
+  <title></title>
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Cálculo de Média</h1>
+    <div name="calculo">
+      <input type="text" class="nota1" placeholder="Digitar Nota 1">
+      <input type="text" class="nota2" placeholder="Digitar Nota 2">
+      <p id="button">Calcular Média</p>
+      <p class="media-titulo">Sua média é:<span class="media"> </span></p>
+    </div>
+  </div>
+
+  <script>
+    const notaUm = Number(document.querySelector(".nota1").value);
+    const notaDois = Number(document.querySelector(".nota2").value);
+    const calculoMedia = Math.round((notaUm + notaDois) / 2);
+    const btnMedia = document.querySelector("#button");
+
+    function validaDados() {
+      event.preventDefault()
+
+      const notaUm = Number(document.querySelector(".nota1").value);
+      const notaDois = Number(document.querySelector(".nota2").value);
+      const calculoMedia = Math.round((notaUm + notaDois) / 2);
+      const media = document.querySelector(".media");
+
+      media.innerHTML = calculoMedia;
+
+      if (calculoMedia >= 7) {
+        alert(`Você foi aprovado com média ${calculoMedia}, tenha boas férias!`);
+      } else {
+        const reprovacao = confirm(`Sua média é ${calculoMedia} e infelizmente você foi reprovado.`);
+        notaUm.value = ""
+        notaDois.value = ""
+      }
+    }
+    btnMedia.addEventListener("click", validaDados)
+
+  </script>
+</body>
+
+</html>
